@@ -1,5 +1,6 @@
 import random
 from functools import reduce
+from math import factorial
 # Задание: усовершенствовать код старых задач применяя lambda, list comprehension
 # map, enumerate, filter, zip
 
@@ -93,7 +94,6 @@ from functools import reduce
 #    #         return n
 #    # стало:
 
-# from math import factorial
 # num = int(input('Input n and you\'ll find out F(n): '))
 # my_list = [i for i in range (num+1)]
 # my_list = list (enumerate((map(factorial, my_list))))
